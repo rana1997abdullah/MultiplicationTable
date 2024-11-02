@@ -10,8 +10,10 @@ public class Mutliplication : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Multiplication Table of  number 5 is: ");
         for(int i=1;i<=10;i++){
-            Debug.Log(5+" x "+i+" = "+Multiply(5,i));
+            int result = Multiply(5,i);
+            Debug.Log(5+" x "+i+" = "+result);
         }
     }
 
